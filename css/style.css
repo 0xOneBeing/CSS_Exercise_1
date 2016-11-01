@@ -1,58 +1,50 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 div#main {
-	width: 600px;
-	margin: 0 auto;
-	border: 1px solid black;
-	height: 50em;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 50em;
+  /*display: -webkit-flex;
+  display: flex;*/
 }
 div.row1 {
-	border: 1px solid black;
-	width: 600px;
-	height: 10em;
+  height: 10em;
+  border: 1px solid black;
+  width: 600px;
 }
 div.row2 {
-	border: 1px solid black;
-	width: 600px;
-	height: 30em;
-	display: flex;
+  height: 30em;
+  border: 1px solid black;
+  width: 600px;
 }
 div.row2col1 {
-	border: 1px solid black;
-	width: 70%;
-	height: 30em;
-}
-div.r2c1sub1 {
-	width: 420px;
-	height: 22em;
-	border: 1px solid black;
-}
-div.r2c1sub2 {
-	width: 420px;
-	height: 8em;
-	border: 1px solid black;
-	display: flex;
-}
-div.d1 {
-	width: 300px;
-	height: 8em;
-	border: 1px solid black;
-}
-div.d2 {
-	width: 120px;
-	height: 8em;
-	border: 1px solid black;
+  width: 30%;
+  border: 1px solid black;
+  height: 30em;
+  float: left;
 }
 div.row2col2 {
-	border: 1px solid black;
-	width: 30%;
-	height: 30em;
+  width: 70%;
+  border: 1px solid black;
+  height: 30em;
+  float: left;
+}
+div.r2c2sub1 {
+  width: 420px;
+  height: 20em;
+  border: 1px solid black;
+}
+div.r2c2sub2 {
+  width: 420px;
+  height: 10em;
+  border: 1px solid black;
 }
 div.row3 {
-	border: 1px solid black;
-	width: 600px;
-	height: 10em;
+  height: 10em;
+  border: 1px solid black;
+  width:600px;
 }
